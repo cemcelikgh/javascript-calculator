@@ -12,6 +12,10 @@ digital-7.ttf
 <br>Aug 2024
 <br><https://www.dafont.com/digital-7.font>
 
+ShareTechMono.ttf
+<br>Feb 2025
+<br><https://fonts.google.com/specimen/Share+Tech+Mono>
+
 freeCodeCamp Glyph icon
 <br>Aug 2024
 <br><https://design-style-guide.freecodecamp.org/>

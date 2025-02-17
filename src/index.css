@@ -5,13 +5,12 @@
 }
 
 body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #3366cc;
 }
 
-#root {
+#calculator {
+  width: 266px;
+  height: 392px;
+  margin: max(calc(50vh - 196px), 0px) auto 0;
   background-color: black;
 }

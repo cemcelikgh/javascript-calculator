@@ -19,10 +19,10 @@ function TableBody({  inputDisplay, processDisplay, setInputDisplay, setProcessD
         setProcessDisplay(btn)
       } else if (btn === '0') {
         setInputDisplay('0');
-        setProcessDisplay('')
+        setProcessDisplay('');
       } else if (btn === '.') {
         setInputDisplay('0.');
-        setProcessDisplay('0.')
+        setProcessDisplay('0.');
       }
       return;
     };
@@ -104,13 +104,13 @@ function TableBody({  inputDisplay, processDisplay, setInputDisplay, setProcessD
     } else if (event.target.id === 'equals') {
       calculate();
     } else {
-      logInput(event.target.innerHTML);
+      logInput(event.target.textContent);
     }
   }
 
   return (
     <>
-      <tbody onClick={processInput}>
+      <tbody onMouseUp={processInput}>
         <tr>
           <td id='clear' colSpan={2}>AC</td>
           <td id='divide'>/</td>
