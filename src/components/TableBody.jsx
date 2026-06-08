@@ -1,6 +1,8 @@
 import { evaluate } from 'mathjs';
 
-function TableBody({  inputDisplay, processDisplay, setInputDisplay, setProcessDisplay }) {
+function TableBody({
+  inputDisplay, processDisplay, setInputDisplay, setProcessDisplay
+}) {
 
   function allClear() {
     setProcessDisplay('');
@@ -102,7 +104,11 @@ function TableBody({  inputDisplay, processDisplay, setInputDisplay, setProcessD
     if (event.target.id === 'clear') {
       allClear();
     } else if (event.target.id === 'equals') {
+      try {
       calculate();
+      } catch (error) {
+        console.warn(error);
+      }
     } else {
       logInput(event.target.textContent);
     }
