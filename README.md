@@ -2,6 +2,6 @@
 freeCodeCamp Front End Development Libraries Certification Project
 <br>JavaScript Calculator
 
-Browse: <https://cemcelikgh.github.io/javascript-calculator/>
+Display: <https://javascript-calculating-machine.netlify.app/>
 
-[![JavaScript Calculator Preview](./public/assets/javascript-calculator-preview.jpg "Browse JavaScript Calculator")](https://cemcelikgh.github.io/javascript-calculator/)
+[![JavaScript Calculator Preview](./public/assets/javascript-calculator-preview.jpg "Display JavaScript Calculator")](https://javascript-calculating-machine.netlify.app/)
